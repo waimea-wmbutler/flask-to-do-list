@@ -21,6 +21,7 @@ SCHEMA_FILE = path.join(DB_FOLDER, "schema.sql")
 #-----------------------------------------------------------
 # Connect to the Turso DB and return the connection
 #-----------------------------------------------------------
+
 @contextmanager
 def connect_db():
     client = None
@@ -34,5 +35,3 @@ def connect_db():
         # Properly close the connection when done
         if client is not None:
             client.close()
-
-

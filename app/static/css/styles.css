@@ -2,17 +2,16 @@
   User stylesheet - Building upon PicoCSS
 =====================================================*/
 
+div .incomplete{
+    opacity: 40;
 
-/* ABOUT PAGE -------------------------------------------- */
-
-#tech-stack {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
 }
-
-#tech-stack article {
-    flex: 1;
+div .complete{
+    opacity: 90;
+}
+span {
+    justify-content: center;
+    justify-content: space-around;
 }
 
 
